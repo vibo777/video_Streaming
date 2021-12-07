@@ -1,0 +1,24 @@
+{
+  "name": "video_streaming",
+  "version": "1.0.0",
+  "description": "in this we are streaming video file on network using express js",
+  "main": "VideoStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon VideoStream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibo777/video_Streaming.git"
+  },
+  "author": "Vaibhav Bunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibo777/video_Streaming/issues"
+  },
+  "homepage": "https://github.com/vibo777/video_Streaming#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
