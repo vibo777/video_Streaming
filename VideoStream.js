@@ -14,7 +14,7 @@ app.get("/video",(req,res)=>{
     }    
 
     // determine the size of video 
-    const videoSize = fs.statSync("./video.mp4").s;
+    const videoSize = fs.statSync("./video.mp4").size;
 
     // start byte of the chunk 
     const start = Number(range.replace(/\D/g,""));
